@@ -95,6 +95,7 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
  - Murphy, Sections 2.1-2.7, 5.2.1, 5.2.2, 6.6.1 and 6.6.2
 
 [Computer Class Notebook](/ComputerClasses/ComputerClass01.ipynb)
+
 [Computer Class Notebook with the code for the activities](/ComputerClasses/ComputerClass01_CodeActivities.ipynb)
 
 *Topics covered in Computer Class*: 
