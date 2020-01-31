@@ -130,6 +130,8 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Computer Class Notebook](/ComputerClasses/ComputerClass02.ipynb)
 
+[Computer Class Notebook with the code for the activities](/ComputerClasses/ComputerClass02_CodeActivities.ipynb)
+
 *Topics covered in Computer Class*: 
  - Working with Pandas data frames
  - Working with 'for' loops in Python
