@@ -104,7 +104,7 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
  - Bayesian Inference (Point and Interval Estimation, Forecasting) with Monte Carlo
 
 
-[Problem Set 1](/ProblemSets/ProblemSet01.pdf)
+[Problem Set 1](/ProblemSets/ProblemSet01_WithSolutions.pdf)
 
 
 ---
@@ -166,5 +166,7 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
  - Conducting full MLE analysis, with confidence intervals rather than just point estimates for the regression coefficients
  - Fitting Bayesian Linear Regression models and summarising the posterior of the regressions coefficients
  - Calculate the marginal likelihood / model evidence for linear regression models to perform Bayesian model selection
+
+[Problem Set 3](/ProblemSets/ProblemSet03.pdf)
 
 ---
