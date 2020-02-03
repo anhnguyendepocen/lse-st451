@@ -160,6 +160,9 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Computer Class Notebook](/ComputerClasses/ComputerClass03.ipynb)
 
+[Data for Computer Class](/ComputerClasses/AutomobileBI.csv)
+
+
 *Topics covered in Computer Class*: 
  - Creating your own function in Python
  - Performing matrix operations
