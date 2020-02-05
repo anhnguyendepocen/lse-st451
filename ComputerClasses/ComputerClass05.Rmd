@@ -1,0 +1,89 @@
+---
+title: "ST451 Computer Workshop with code for the activity - Week 5"
+output: pdf_document
+---
+
+### RStan
+
+#### Demonstration
+
+```{r}
+library("rstan")
+rstan_options(auto_write = TRUE)
+```
+
+First simulate data and put them in a list.
+
+```{r}
+set.seed(10)
+N=1000;
+mu = 5;
+sigma = 4;
+obs = rnorm(N,mu,sigma);
+mean(obs)
+sd(obs)
+
+toy_dat <- list(N=N, y=obs)
+```
+
+For the model see the file `ToyExample.stan`. 
+
+Next we run the automatic Variational Bayes algorithm
+
+```{r}
+ToyModel <- stan_model(file='ToyExample.stan')
+vb(ToyModel,data=toy_dat)
+```
+
+
+#### Activity
+
+The dataset contains cases from a study that was conducted between, 1958 and 1970 at the University of Chicago's Billings Hospital on the survival of patients who had undergone surgery for breastcancer.
+
+Four variables:
+  * Age of patient at time of operation 
+  * Patient's year of operation (year - 1900)
+  * Number of positive axillary nodes detected 
+  * Survival status (1 = the patient survived 5 years or longer, 2 = the patient died within 5 year)
+
+First we load the data and fit a logistic regression model with MLE
+
+```{r}
+library(data.table)
+url <- "https://archive.ics.uci.edu/ml/machine-learning-databases/haberman/haberman.data"
+biopsy <- fread(url, sep = ",", header = FALSE)
+column.names <- c('age', 'year', 'nodes', 'survival')
+setnames(biopsy, column.names)
+biopsy$survival[biopsy$survival==2] = 0;
+summary(biopsy)
+fit1 = glm(survival~nodes,family=binomial,data=biopsy)
+summary(fit1)
+```
+
+Normal priors can be assigned on the $\beta$ coefficients with zero mean and some reasonably large variance -say $100$.
+
+The task is to obtain the mean field Variational Bayes approximation to the posterior of $\beta$ using ADVI in RStan.  
+
+The model can be written as
+
+$$y_i\sim Bernoulli(\pi_i),\;\; i=1,...,N$$
+$$\pi_i = \text{logit}^{-1}(\beta_0+\beta_1 x_{i}),$$
+$$\beta_0 \sim N(0,100), \;  \beta_1 \sim N(0,100),$$
+where $y_i, x_{i}$ denote the nodes detected of the person $i$.
+
+
+#### Put your code below
+
+Prepare the data 
+
+```{r}
+biopsy_dat <- list(N=length(biopsy$age), y=biopsy$survival, x=biopsy$nodes)
+```
+
+Hint: Note that the observations are now binary. So in the data section y should be declared as
+
+int<lower=0,upper=1> y[N];
+
+x should also be declared in the same way as y in the toy examples
+
+vector[N] x;
