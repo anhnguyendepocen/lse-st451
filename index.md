@@ -185,7 +185,7 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
  - Misclassification rate, ROC curves and Scoring Rules
  
 *Further Reading (Optional)*:
- - Bishop 4.2 ti 4.5
+ - Bishop 4.2 to 4.5
  - Murphy, Sections: 4.2.1 to 4.2.4, 8.1, 8.2, 8.3.1, 8.3.3, 8.3.7 and 8.4.1 to 8.4.4.
 
 [Computer Class Notebook](/ComputerClasses/ComputerClass04.ipynb)
