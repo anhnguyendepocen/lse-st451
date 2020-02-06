@@ -185,7 +185,7 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
  - Misclassification rate, ROC curves and Scoring Rules
  
 *Further Reading (Optional)*:
- - Bishop 4.2 to 4.5
+ - Bishop, Sections: 4.2 to 4.5
  - Murphy, Sections: 4.2.1 to 4.2.4, 8.1, 8.2, 8.3.1, 8.3.3, 8.3.7 and 8.4.1 to 8.4.4.
 
 [Computer Class Notebook](/ComputerClasses/ComputerClass04.ipynb)
@@ -202,3 +202,33 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 [Problem Set 4](/ProblemSets/ProblemSet04.pdf)
 
 ---
+
+#### Week 5. Variational Bayes
+
+[Lecture Slides](/LectureSlides/SlidesWeek05.pdf)
+
+*Topics covered in Lecture*: 
+ - Variational Inference
+ - Kulback-Leibler (KL) Divergence
+ - Entropy Lower Bound (ELBO)
+ - Mean Field Approximation
+ - Automatic Variational Inference
+ - Stochastic Gradient Descent
+ 
+*Further Reading (Optional)*:
+ - Bishop, Sections: 10.1 10.3 10.6. 
+ - Murphy, Sections: 21.1 21.2 21.3.1 21.5.
+
+[Computer Class Notebook](/ComputerClasses/ComputerClass05.ipynb)
+
+[Computer Class R Markdown](/ComputerClasses/ComputerClass05.Rmd)
+
+*Topics covered in Computer Class*: 
+ - Mean field approximation
+ - Automatic Differentiation Variational Inference (ADVI) in RStan
+
+[Problem Set 5](/ProblemSets/ProblemSet05.pdf)
+
+---
+
+
