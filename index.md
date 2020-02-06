@@ -220,6 +220,7 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 *Further Reading (Optional)*:
  - Bishop, Sections: 10.1 10.3 10.6. 
  - Murphy, Sections: 21.1 21.2 21.3.1 21.5.
+ - Kucukelbir A., Tran D., Ranganath R., Gelman A., Blei D.M. (2016) [Automatic Differentiation Variational Inference](http://www.jmlr.org/papers/volume18/16-107/16-107.pdf). 
 
 [Computer Class Notebook](/ComputerClasses/ComputerClass05.ipynb)
 
