@@ -26,13 +26,13 @@
 | 1        | [Bayesian Inference Concepts](#week-1-bayesian-inference-concepts) |
 | 2        | [Bayesian Linear Regression](#week-2-bayesian-linear-regression)                  |
 | 3        | [Bayesian Model Selection](#week-3-bayesian-model-choice)    |
-| 4        | [Classification](#week-4-convolutional-neural-networks)       |
-| 5        | [Variational Bayes](#week-5-sequence-modeling)                  |                       |
-| 6        | [Graphical Models](#week-7-introduction-to-reinforcement-learning) |
-| 7        | [Mixture models and Clustering](#week-8-dynamic-programming-and-monte-carlo-methods) | 
-| 8        | [Sampling Methods](#week-9-temporal-difference-methods-and-eligibility-traces)|
-| 9        | [Sequential Data](#week-10-generalization-and-function-approximation) |
-| 10       | [Gaussian Processes](#week-11-policy-gradient-methods)           |
+| 4        | [Classification](#week-4-classification)       |
+| 5        | [Variational Bayes](#week-5-variational-bayes)                  |                       |
+| 6        | [Graphical Models](#week-6-introduction-to-reinforcement-learning) |
+| 7        | [Mixture models and Clustering](#week-7-dynamic-programming-and-monte-carlo-methods) | 
+| 8        | [Sampling Methods](#week-8-temporal-difference-methods-and-eligibility-traces)|
+| 9        | [Sequential Data](#week-9-generalization-and-function-approximation) |
+| 10       | [Gaussian Processes](#week-10-policy-gradient-methods)           |
 
 ### Course Description
 
@@ -171,5 +171,34 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
  - Calculate the marginal likelihood / model evidence for linear regression models to perform Bayesian model selection
 
 [Problem Set 3](/ProblemSets/ProblemSet03.pdf)
+
+---
+#### Week 4. Classification
+
+[Lecture Slides](/LectureSlides/SlidesWeek04.pdf)
+
+*Topics covered in Lecture*: 
+ - Discriminative and Generative models
+ - Logistic Regression
+ - Newton Rapshon Algorithm
+ - Bayesian Central Limit Theorem
+ - Misclassification rate, ROC curves and Scoring Rules
+ 
+*Further Reading (Optional)*:
+ - Bishop 4.2 ti 4.5
+ - Murphy, Sections: 4.2.1 to 4.2.4, 8.1, 8.2, 8.3.1, 8.3.3, 8.3.7 and 8.4.1 to 8.4.4.
+
+[Computer Class Notebook](/ComputerClasses/ComputerClass04.ipynb)
+
+*Topics covered in Computer Class*: 
+ - Working with 'while' loops in Python
+ - Coding Newton-Rapshon optimisation in Python
+ - Finding Maximum Likelihood Estimates of logistic regression coefficients
+ - Fitting Bayesian logistic Regression models and summarising the posterior of their coefficients
+ - Calculate the model evidence, BIC for model choice under Bayesian logistic regression 
+ - Evaluate predictive performance for binary data: missclassification rate, sensitivity, specificity, ROC curves and area under them, log scoring rule
+ - Fitting linear discriminant analysis
+
+[Problem Set 4](/ProblemSets/ProblemSet04.pdf)
 
 ---
