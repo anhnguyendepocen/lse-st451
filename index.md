@@ -203,6 +203,10 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Problem Set 4](/ProblemSets/ProblemSet04.pdf)
 
+[Credit Card Fraud Data](/ProblemSets/CreditCardFraud.csv)
+
+[Default Data](/ProblemSets/Default.csv)
+
 ---
 
 #### Week 5. Variational Bayes
