@@ -140,7 +140,9 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
  - Introduction to training and test error concepts
  - Ridge regression
 
-[Problem Set 2](/ProblemSets/ProblemSet02.pdf)
+[Problem Set 2 with solutions](/ProblemSets/ProblemSet02_WithSolutions.pdf)
+
+[Code for Exercise 3](/ProblemSets/ProblemSet02_Exercise3.ipynb)
 
 ---
 #### Week 3. Bayesian Model Choice
