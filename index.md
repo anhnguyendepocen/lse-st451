@@ -236,6 +236,10 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Computer Class R Markdown](/ComputerClasses/ComputerClass05.Rmd)
 
+[Toy Example Stan file](/ComputerClasses/ToyExample.stan)
+
+[Logistic Regression Stan file](/ComputerClasses/LogisticRegression.stan)
+
 *Topics covered in Computer Class*: 
  - Mean field approximation
  - Automatic Differentiation Variational Inference (ADVI) in RStan
