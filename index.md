@@ -176,6 +176,8 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Problem Set 3](/ProblemSets/ProblemSet03.pdf)
 
+[Problem Set 3 with solutions](/ProblemSets/ProblemSet03_WithSolutions.pdf)
+
 ---
 #### Week 4. Classification
 
@@ -193,6 +195,8 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
  - Murphy, Sections: 4.2.1 to 4.2.4, 8.1, 8.2, 8.3.1, 8.3.3, 8.3.7 and 8.4.1 to 8.4.4.
 
 [Computer Class Notebook](/ComputerClasses/ComputerClass04.ipynb)
+
+[Computer Class Notebook with the code for the activities](/ComputerClasses/ComputerClass04_CodeActivities.ipynb)
 
 *Topics covered in Computer Class*: 
  - Working with 'while' loops in Python
