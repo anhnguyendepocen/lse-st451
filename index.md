@@ -246,6 +246,8 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Problem Set 5](/ProblemSets/ProblemSet05.pdf)
 
+[VIX Data](/ProblemSets/VIX_201518.csv)
+
 ---
 
 
