@@ -258,4 +258,36 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 ---
 
+#### Week 6. Graphical Models
 
+[Lecture Slides](/LectureSlides/SlidesWeek06.pdf)
+
+*Topics covered in Lecture*: 
+ - Introduction to Graphical Models
+ - Directed Graphs / Bayesian Networks
+ - Undirected Graphs / Markov Random Fields
+ - Naive Bayes Classifier
+ - Text Classification
+ - Ising Model
+ - Image Processing
+ 
+*Further Reading (Optional)*:
+ - Bishop, Sections: 8.1 8.2 8.3 and optionally 8.4. 
+ - Murphy, Sections: 10.1 10.2 10.5 19.1 19.2 19.4.1 21.3.2 and optionally 10.3 10.4 19.3 19.5.
+
+[Computer Class Notebook](/ComputerClasses/ComputerClass06.ipynb)
+
+[Image for the Computer Class](/ComputerClasses/bayes.bmp)
+
+*Topics covered in Computer Class*: 
+ - Image denoising
+ - Ising model
+ - Text classification
+ - Document-term matrix
+ - Naive Bayes Classifier
+ - Working with Pipelines in Python
+ - Adding progress bars in Python
+
+[Problem Set 6](/ProblemSets/ProblemSet06.pdf)
+
+---
