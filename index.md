@@ -240,7 +240,9 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Computer Class R Markdown](/ComputerClasses/ComputerClass05.Rmd)
 
-[Computer Class Notebook with the code for the activities](/ComputerClasses/ComputerClass05_CodeActivities.ipynb)
+[Computer Class Notebook with the code for the activity](/ComputerClasses/ComputerClass05_CodeActivity.ipynb)
+
+[Computer Class  R Markdown with the code for the activity](/ComputerClasses/ComputerClass05_CodeActivity.Rmd)
 
 [Toy Example Stan file](/ComputerClasses/ToyExample.stan)
 
