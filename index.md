@@ -28,7 +28,7 @@
 | 3        | [Bayesian Model Selection](#week-3-bayesian-model-choice)    |
 | 4        | [Classification](#week-4-classification)       |
 | 5        | [Variational Bayes](#week-5-variational-bayes)                  |                       |
-| 6        | [Graphical Models](#week-6-introduction-to-reinforcement-learning) |
+| 6        | [Graphical Models](#week-6-graphical-models) |
 | 7        | [Mixture models and Clustering](#week-7-dynamic-programming-and-monte-carlo-methods) | 
 | 8        | [Sampling Methods](#week-8-temporal-difference-methods-and-eligibility-traces)|
 | 9        | [Sequential Data](#week-9-generalization-and-function-approximation) |
