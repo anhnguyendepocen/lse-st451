@@ -1,0 +1,208 @@
+\documentclass[fleqn]{article}
+
+\usepackage{comment}
+\usepackage{hyperref}
+\includecomment{comment}\specialcomment{answer}{\begingroup \color{blue}{\it Answer: }}{\endgroup}
+%\excludecomment{answer}\excludecomment{comment}
+
+\usepackage{graphicx,color,amsmath}
+%\usepackage{subfigure}
+%\usepackage{a4wide}
+
+
+\definecolor{dred}{rgb}{0.5,0,0}
+\definecolor{dgreen}{rgb}{0,0.3,0}
+\definecolor{dblue}{rgb}{0,0,0.5}
+\definecolor{dmagenta}{cmyk}{0,1,0,0.6}
+\definecolor{dcyan}{cmyk}{1,0,0,0.5}
+\definecolor{grey}{gray}{0.9}
+\definecolor{orange}{rgb}{1,0.65,0}
+\definecolor{mellow}{rgb}{.847,.72,.525}
+\definecolor{golden}{rgb}{.80392,.60784,.11373}
+\definecolor{dgolden}{rgb}{.5451,.39608,.03137}
+\definecolor{brown}{rgb}{.15,.15,.15}
+\definecolor{darkolivegreen}{rgb}{.33333,.41961,.18431}
+\newcommand{\bfbeta}{\mbox{{\boldmath $\beta$}}}
+\newcommand{\bfdelta}{\mbox{{\boldmath $\delta$}}}
+\newcommand{\bfzeta}{\mbox{{\boldmath $\zeta$}}}
+\newcommand{\bfBeta}{\mbox{{\boldmath $\Beta$}}}
+\newcommand{\bfeta}{\mbox{{\boldmath $\eta$}}}
+\newcommand{\bfGamma}{\mbox{{\boldmath $\Gamma$}}}
+\newcommand{\bfxi}{\mbox{{\boldmath $\xi$}}}
+\newcommand{\bfepsilon}{\mbox{{\boldmath $\epsilon$}}}
+\newcommand{\bfPhi}{\mbox{{\boldmath $\Phi$}}}
+\newcommand{\bfPsi}{\mbox{{\boldmath $\Psi$}}}
+\newcommand{\bfTheta}{\mbox{{\boldmath $\Theta$}}}
+
+%\newcommand{\eqref}[1]{(\ref{#1})}
+\newcommand{\mat}[1]{\mbox{\boldmath{$#1$}}}
+\newcommand{\worth}[1]{{\small \hfill \bf (#1~marks)}}
+\newcommand{\worthone}{{\small \hfill[1 mark]}}
+\newcommand{\bfmu}{\mbox{\boldmath{$\mu$}}}
+\newcommand{\bfSigma}{\mbox{\boldmath{$\Sigma$}}}
+%FORMATTING
+\setlength{\topmargin}{-1cm}
+\setlength{\textheight}{23.5cm} \setlength{\textwidth}{16cm}
+\setlength{\oddsidemargin}{-0.5cm}
+\setlength{\evensidemargin}{-0.5cm}
+\setlength{\unitlength}{0.8cm}
+\newcommand{\A}{\mbox{$\mathbf A$}}
+\newcommand{\ab}{\mbox{$\mathbf a$}}
+\def\AA{\mbox{$\mathbf A$}}
+\def\ao{\mbox{\aa}}
+\newcommand{\BB}{\mbox{$\mathbf B$}}
+\newcommand{\bb}{\mbox{$\mathbf b$}}
+\newcommand{\CC}{\mbox{$\mathbf C$}}
+\newcommand{\dd}{\mbox{$\mathbf d$}}
+\newcommand{\DD}{\mbox{$\mathbf D$}}
+\newcommand{\EE}{\mbox{$\mathbf E$}}
+\newcommand{\ee}{\mbox{$\mathbf e$}}
+\newcommand{\FF}{\mbox{$\mathbf F$}}
+\newcommand{\ff}{\mbox{$\mathbf f$}}
+\def\G{\mbox{$\mathbf G$}}
+\def\GG{\mbox{$\mathbf G$}}
+\def\gg{\mbox{$\mathbf g$}}
+\def\gG{\mbox{$\mathbf g$}}
+\newcommand{\HH}{\mbox{$\mathbf H$}}
+\newcommand{\hh}{\mbox{$\mathbf h$}}
+\newcommand{\I}{\mbox{$\mathbf I$}}
+\def\II{\mbox{$\mathbf I$}}
+\newcommand{\J}{\mbox{$\mathbf J$}}
+\newcommand{\KK}{\mbox{$\mathbf K$}}
+\newcommand{\LM}{\mbox{$\mathbf L$}}
+\newcommand{\lv}{\mbox{$\mathbf l$}}
+\def\LL{\mbox{$\mathbf L$}}
+\def\MM{\mbox{$\mathbf M$}}
+\newcommand{\m}{\mbox{$\mathbf m$}}
+\newcommand{\mm}{\mbox{$\mathbf m$}}
+\def\NN{\mbox{$\mathbf N$}}
+\newcommand{\one}{\mbox{$\mathbf 1$}}
+\newcommand{\pp}{\mbox{$\mathbf p$}}
+\newcommand{\QQ}{\mbox{$\mathbf Q$}}
+\def\rr{\mbox{$\mathbf r$}}
+%\newcommand{\R}{\mbox{$\mathbf R$}}
+\newcommand{\RR}{\mbox{$\mathbf R$}}
+\newcommand{\ra}{\rightarrow}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray*}}
+\newcommand{\eea}{\end{eqnarray*}}
+
+\begin{document}
+
+\begin{center}
+\Large {\bf ST451 Bayesian Machine Learning\\
+Week 4
+}
+\end{center}
+
+\normalsize
+%
+\vspace{1.0cm}
+%
+%*******
+\section*{Exercises}
+%*******
+\begin{enumerate} 
+%Exercise 1
+\item Consider the case of Linear Discriminant Analysis with a scalar $x$ with data $(y_i,x_i)_{i=1}^n$, where $y_i$'s are binary random variables and $x_i$'s continuous. Assume that $x_i\sim N(\mu_0,\sigma^2)$ in category $c_0$ and that $x_i\sim N(\mu_1,\sigma^2)$ in category $c_1$ and that they are independent. Further assume that each $y_i$ is a Bernoulli random variable with probability of success $p(y\in c_1|x)$ and that the $y_i$'s are independent. Finally, the prior probability $\pi(y\in c_1)=\pi$. Write down the likelihood function and provide the maximum likelihood estimators for $\pi,\mu_0,\mu_1$ and $\sigma^2$.
+
+\begin{answer}
+%Let $x_{0i}$ denote the $x_i$'s for which $y_i=0$ and let $n_0$ be how many they are. Similarly, let $x_{0i}$ denote the $x_i$'s for which $y_i=1$ and let $n_1$ be how many they are. Note that $n_1=\sum_i y_i$ and that $n=n_1+n_2$.
+The likelihood for $\theta=(\pi,\mu_1,\mu_2,\sigma^2)$ based $(y_i,X_i)_{i=1}^n$ can be written as
+\bea
+f(x,y|\theta) &=& \prod_{i=1}^n \left[\pi N(\mu_1,\sigma^2)\right]^{y_i}\left[(1-\pi) N(\mu_0,\sigma^2)\right]^{1-y_i} 
+\eea
+%
+To maximise with respect to $\pi$ we write the log-likelihood keeping the terms that involve $\pi$
+\bea
+\log f(x,y|\pi) = c+ \sum_{i=1}^n \left\{y_i\log\pi +(1-y_i)\log(1-\pi)\right\}
+\eea
+After differentiating the above wrt $\pi$, setting equal to $0$ and solving the equation we get
+\bea
+\hat\pi = \frac{1}{n}\sum_{i=1}^n y_i=\frac{n_1}{n}=\frac{n_1}{n_0+n_1}\\
+\eea
+To maximise with respect to $\mu_0$ we write the log-likelihood keeping the terms that involve $\mu_0$:
+\bea
+\log f(x,y|\mu_1) = c+ \sum_{i=1}^n y_i\log N(x_i|\mu_1,\sigma^2)= c-\frac{1}{2}\frac{\sum_{i=1}^n y_i (x_i-\mu_1)^2}{\sigma^2}
+\eea
+After differentiating the above wrt $\pi$, setting equal to $0$ and solving the equation we get
+\bea
+\hat\mu_1 = \frac{\sum_{i=1}^n y_ix_i}{\sum_{i=1}^n y_i}=\frac{\sum_{i=1}^n y_ix_i}{n_1}\\
+\eea
+Similarly we obtain
+\bea
+\hat\mu_0 = \frac{\sum_{i=1}^n (1-y_i)x_i}{\sum_{i=1}^n (1-y_i)}=\frac{\sum_{i=1}^n (1-y_i)x_i}{n_0}\\
+\eea
+%
+Finally for the common variance $\sigma^2$
+\bea
+\log f(x,y|\sigma^2) &=& c+ \sum_{i=1}^n (1-y_i)\log N(x_i|\mu_0,\sigma^2) + \sum_{i=1}^n y_i\log N(x_i|\mu_1,\sigma^2)\\
+&=& c-(n/2)\log \sigma^2 -\frac{1}{2}\frac{\sum_{i=1}^n(1-y_i)(x_i-\mu_0)^2}{\sigma^2}-\frac{1}{2}\frac{\sum_{i=1}^ny_i(x_i-\mu_1)^2}{\sigma^2}\\
+&=&c-(n/2)\log \sigma^2 - \frac{1}{2}\frac{\sum_{i=1}^n\left\{(1-y_i)(x_i-\mu_0)^2 + y_i(x_i-\mu_1)^2\right\}}{\sigma^2}
+\eea
+After differentiating the above wrt $\sigma^2$, setting equal to $0$ and solving the equation we get
+\bea
+\hat{\sigma}^2=\frac{1}{n}\sum_{i=1}^n\left\{(1-y_i)(x_i-\mu_0)^2 + y_i(x_i-\mu_1)^2\right\}
+\eea
+\end{answer}
+
+%Exercise 2
+\item Let $y=(y_1,\dots,y_n)$ be a r.s. from a Poisson($\lambda$) and assign the an improper prior to $\lambda$ such that $\pi(\lambda)\propto \lambda^{-1/2}$. Find the Laplace approximation to the posterior based on the mode and the Hessian matrix of $\pi^*(\lambda|y)=f(y|\lambda)\pi(\lambda)$.
+%  \item Assume $\bar{y}=2$ and $n=10$. Using Python calculate the posterior probability of $\lambda$ being less than $1.7$ using the true posterior density and the normal approximation derived in the previous part. Also plot the true and approximate posterior in the same plot. Repeat for $\bar{y}=2$ and $n=100$
+ %\end{enumerate} 
+ 
+  \begin{answer}
+ % \begin{enumerate}
+  %\item
+We can write
+
+\begin{align*}
+\log \pi^*(\lambda|y)&=\log \left[f(y|\lambda)\pi(\lambda)\right] \propto \log\left\{\lambda^{\sum y_{i}} \exp(-n\lambda)\right\} -\frac{1}{2}\log \lambda\\
+&=(\sum y_{i}\log(\lambda)-n\lambda -\frac{1}{2}\log \lambda,
+\end{align*}
+
+$$
+\frac{\partial \log \pi^*(\lambda|y)}{\partial \lambda}=\frac{\sum y_{i}-1/2}{\lambda}-n 
+$$
+
+Setting $\frac{\partial \log \pi^*(\lambda|y)}{\partial \lambda}=0$, gives $\lambda_M=\frac{-1/2+\sum_i y_i }{n}$.
+
+We also note that
+
+$$
+\frac{\partial^2 \log \pi^*(\lambda|y)}{\partial \lambda^2}=-\frac{-1/2+\sum_i y_i}{\lambda^2},
+$$
+
+which is negative (when evaluated at $\lambda_M$) implying the mode is at $\lambda_M$. The Hessian is
+
+$$
+H(\lambda)=\frac{-1/2+\sum_i y_i}{\lambda^2}
+$$
+
+The normal approximation to the posterior for $\lambda$ will have mean $\lambda_M$ and variance $H(\lambda_M)^{-1}$
+%\item See jupyter notebook `CodeExercises.ipynb'
+%\end{enumerate}
+\end{answer}
+
+%Exercise 3
+\item In the dataset used in the computer class compute the maximum likelihood estimates without using the relevant \emph{sklearn} function but with the \emph{numpy} library only.
+
+\begin{answer}
+See jupyter notebook `CodeExercises.ipynb'
+\end{answer}
+
+%Exercise 4
+\item  The file `CreditCardFraud.csv' contains a subsample from the following Kaggle competition \url{https://www.kaggle.com/mlg-ulb/creditcardfraud}. A smaller sample has been taken with more balanced data, as the issue of unbalanced data is not the subject of this week's material. The features `Amount' and `Time' were also removed, leaving the 28 features labeled V1-V28. Fit logistic regression models on the data using both the MLE and Bayesian approaches and compare their predictive performance.
+\begin{answer}
+See jupyter notebook `CodeExercises.ipynb'
+\end{answer}
+
+%Exercise 5
+\item  The file `Default.csv' contains the data from the first motivating example in the lecture slides. Fit logistic regression models on the data (both the MLE and Bayesian) as well as the Linear Discriminant Analysis model and compare their predictive performances.
+\begin{answer}
+See jupyter notebook `CodeExercises.ipynb'
+\end{answer}
+
+\end{enumerate}
+\end{document}
