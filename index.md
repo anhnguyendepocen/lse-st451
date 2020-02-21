@@ -209,6 +209,10 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Problem Set 4](/ProblemSets/ProblemSet04.pdf)
 
+[Problem Set 4 with solutions](/ProblemSets/ProblemSet04_WithSolutions.pdf)
+
+[Problem Set 4 Code for Computer Exercises](/ProblemSets/ProblemSet04_CodeExercises.ipynb)
+
 [Credit Card Fraud Data](/ProblemSets/CreditCardFraud.csv)
 
 [Default Data](/ProblemSets/Default.csv)
@@ -235,6 +239,8 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 [Computer Class Notebook](/ComputerClasses/ComputerClass05.ipynb)
 
 [Computer Class R Markdown](/ComputerClasses/ComputerClass05.Rmd)
+
+[Computer Class Notebook with the code for the activities](/ComputerClasses/ComputerClass05_CodeActivities.ipynb)
 
 [Toy Example Stan file](/ComputerClasses/ToyExample.stan)
 
