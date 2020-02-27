@@ -29,10 +29,10 @@
 | 4        | [Classification](#week-4-classification)       |
 | 5        | [Variational Bayes](#week-5-variational-bayes)                  |                       |
 | 6        | [Graphical Models](#week-6-graphical-models) |
-| 7        | [Mixture models and Clustering](#week-7-dynamic-programming-and-monte-carlo-methods) | 
-| 8        | [Sampling Methods](#week-8-temporal-difference-methods-and-eligibility-traces)|
-| 9        | [Sequential Data](#week-9-generalization-and-function-approximation) |
-| 10       | [Gaussian Processes](#week-10-policy-gradient-methods)           |
+| 7        | [Mixture models and Clustering](#week-7-mixture-models-and-clustering) | 
+| 8        | [Sampling Methods](#week-8-sampling-methods)|
+| 9        | [Sequential Data](#week-9-sequential-data) |
+| 10       | [Gaussian Processes](#week-10-gaussian-processes)           |
 
 ### Course Description
 
@@ -289,5 +289,33 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
  - Adding progress bars in Python
 
 [Problem Set 6](/ProblemSets/ProblemSet06.pdf)
+
+---
+
+#### Week 7. Mixture Models and Clustering
+
+[Lecture Slides](/LectureSlides/SlidesWeek07.pdf)
+
+*Topics covered in Lecture*: 
+ - Data Augmentation Setup
+ - Gaussian Mixtures
+ - EM Algorithm
+ - Connection With K-means
+ - Overfitted Mixtures 
+ - Latent Dirichet Allocation
+ 
+*Further Reading (Optional)*:
+ - Bishop, Sections: 9.1 to 9.4, 10.2.1 and 10.2.2. 
+ - Murphy, Sections: 11.1, 11.2, 11.4.1, 11.4.2 and 21.6.
+
+[Computer Class Notebook](/ComputerClasses/ComputerClass07.ipynb)
+
+*Topics covered in Computer Class*: 
+ - Fitting Gaussian Mixture models using the EM algorithm
+ - Obtaining information on soft allocation of individuals
+ - Model Choice within the family of Gaussian Mixtures
+ - Bayesian approach with overfitted mixtures
+
+[Problem Set 7](/ProblemSets/ProblemSet07.pdf)
 
 ---
