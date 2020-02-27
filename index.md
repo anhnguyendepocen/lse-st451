@@ -306,7 +306,7 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
  
 *Further Reading (Optional)*:
  - Bishop, Sections: 9.1 to 9.4, 10.2.1 and 10.2.2. 
- - Murphy, Sections: 11.1, 11.2, 11.4.1, 11.4.2 and 21.6.
+ - Murphy, Sections: 11.1, 11.2, 11.4.1, 11.4.2, 21.6 and 27.3.
 
 [Computer Class Notebook](/ComputerClasses/ComputerClass07.ipynb)
 
