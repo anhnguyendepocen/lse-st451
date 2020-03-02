@@ -1,0 +1,30 @@
+---
+title: "Problem Set 5 - Exercise 2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Exercise 2
+
+
+### VIX 
+
+First load data and put them in a list.
+
+```{r}
+dt = 1/252;
+vix <- fread('vix_201518.csv', sep = ",", header = TRUE)
+vix$Date <- as.Date(vix$Date, "%d/%m/%Y")
+plot(vix$Close~vix$Date,type='l',ylab='VIX',xlab='Date')
+vix_dat <- list(N=length(vix$Close), y=vix$Close)
+```
+
+For the model see the file `ToyExample.stan`. Next we run the automatic VB algorithm
+
+```{r}
+vixModel <- stan_model(file='vix.stan')
+vb(vixModel,data=vix_dat,init='0')
+```
