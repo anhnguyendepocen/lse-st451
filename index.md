@@ -242,7 +242,7 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Computer Class Notebook with the code for the activity](/ComputerClasses/ComputerClass05_CodeActivity.ipynb)
 
-[Computer Class  R Markdown with the code for the activity](/ComputerClasses/ComputerClass05_CodeActivity.Rmd)
+[Computer Class R Markdown with the code for the activity](/ComputerClasses/ComputerClass05_CodeActivity.Rmd)
 
 [Toy Example Stan file](/ComputerClasses/ToyExample.stan)
 
@@ -255,6 +255,12 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 [Problem Set 5](/ProblemSets/ProblemSet05.pdf)
 
 [VIX Data](/ProblemSets/VIX_201518.csv)
+
+[Problem Set 5 with solutions](/ProblemSets/ProblemSet05_WithSolutions.pdf)
+
+[Notebook with the code for Exercise 2](/ProblemSet5_CodeExercise2.ipynp)
+
+[R Markdown with the code for Exercise 3](/ProblemSet5_CodeExercise3.Rmd)
 
 ---
 
