@@ -258,9 +258,9 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Problem Set 5 with solutions](/ProblemSets/ProblemSet05_WithSolutions.pdf)
 
-[Notebook with the code for Exercise 2](/ProblemSet05_CodeExercise2.ipynp)
+[Notebook with the code for Exercise 2](/ProblemSets/ProblemSet05_CodeExercise2.ipynp)
 
-[R Markdown with the code for Exercise 3](/ProblemSet05_CodeExercise3.Rmd)
+[R Markdown with the code for Exercise 3](/ProblemSets/ProblemSet05_CodeExercise3.Rmd)
 
 ---
 
