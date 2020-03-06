@@ -296,6 +296,8 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Problem Set 6](/ProblemSets/ProblemSet06.pdf)
 
+[Problem Set 6 with solutions](/ProblemSets/ProblemSet06_WithSolutions.pdf)
+
 ---
 
 #### Week 7. Mixture Models and Clustering
