@@ -353,6 +353,7 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 [X train](/ComputerClasses/X_train.csv) [y train](/ComputerClasses/y_train.csv) [X test](/ComputerClasses/X_test.csv) [y test](/ComputerClasses/y_test.csv)
 
 *Stan files for Computer Class*
+
 [Linear Regression](/ComputerClasses/LinearRegression.stan) [/ComputerClasses/Linear Regression 2](LinearRegression2.stan) [Horseshoe](/ComputerClasses/horseshoe.stan)
 
 *Topics covered in Computer Class*: 
