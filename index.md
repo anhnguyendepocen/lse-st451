@@ -344,11 +344,21 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Computer Class Notebook](/ComputerClasses/ComputerClass08.ipynb)
 
+[Computer Class R Markdown](/ComputerClasses/ComputerClass08.Rmd)
+
+*Data for Computer Class*
+[Diabetes Data](diabetes.data.txt)
+[X train](X_train.csv) [y train](y_train.csv) [X test](X_test.csv) [y test](y_test.csv)
+
+*Stan files for Computer Class*
+[Linear Regression](LinearRegression.stan) [Linear Regression 2](LinearRegression2.stan) [Horseshoe](horseshoe.stan)
+
 *Topics covered in Computer Class*: 
- - Fitting Gaussian Mixture models using the EM algorithm
- - Obtaining information on soft allocation of individuals
- - Model Choice within the family of Gaussian Mixtures
- - Bayesian approach with overfitted mixtures
+ - Sampling from the posterior using the Gibbs Sampler in Python
+ - Presenting the output of a Markov Chain Monte Carlo (MCMC) ouput 
+ - Using Hamiltonian MCMC to sample from the posterior using Stan
+ - Presenting MCMC output in Stan
+ - Bayesian Sparse Linear Regression with the *horseshoe* prior
 
 [Problem Set 8](/ProblemSets/ProblemSet08.pdf)
 
