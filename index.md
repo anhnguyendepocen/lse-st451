@@ -347,11 +347,13 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 [Computer Class R Markdown](/ComputerClasses/ComputerClass08.Rmd)
 
 *Data for Computer Class*
-[Diabetes Data](diabetes.data.txt)
-[X train](X_train.csv) [y train](y_train.csv) [X test](X_test.csv) [y test](y_test.csv)
+
+[Diabetes Data](/ComputerClasses/diabetes.data.txt)
+
+[X train](/ComputerClasses/X_train.csv) [y train](/ComputerClasses/y_train.csv) [X test](/ComputerClasses/X_test.csv) [y test](/ComputerClasses/y_test.csv)
 
 *Stan files for Computer Class*
-[Linear Regression](LinearRegression.stan) [Linear Regression 2](LinearRegression2.stan) [Horseshoe](horseshoe.stan)
+[Linear Regression](/ComputerClasses/LinearRegression.stan) [/ComputerClasses/Linear Regression 2](LinearRegression2.stan) [Horseshoe](/ComputerClasses/horseshoe.stan)
 
 *Topics covered in Computer Class*: 
  - Sampling from the posterior using the Gibbs Sampler in Python
