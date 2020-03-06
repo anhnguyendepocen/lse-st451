@@ -30,7 +30,7 @@
 | 5        | [Variational Bayes](#week-5-variational-bayes)                  |                       |
 | 6        | [Graphical Models](#week-6-graphical-models) |
 | 7        | [Mixture models and Clustering](#week-7-mixture-models-and-clustering) | 
-| 8        | [Sampling Methods](#week-8-sampling-methods)|
+| 8        | [Markov Chain Monte Carlo](#week-8-markov-chain-monte-carlo)|
 | 9        | [Sequential Data](#week-9-sequential-data) |
 | 10       | [Gaussian Processes](#week-10-gaussian-processes)           |
 
@@ -323,5 +323,33 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
  - Bayesian approach with overfitted mixtures
 
 [Problem Set 7](/ProblemSets/ProblemSet07.pdf)
+
+---
+
+#### Week 8. Markov Chain Monte Carlo
+
+[Lecture Slides](/LectureSlides/SlidesWeek08.pdf)
+
+*Topics covered in Lecture*: 
+ - Hirerarchical / Multi-level / Panel Data models 
+ - Bayesian sparse variable selection
+ - Markov Chains
+ - Metropolis-Hastings Algorithm
+ - Gibbs Sampler 
+ - Hamiltonian MCMC
+ 
+*Further Reading (Optional)*:
+ - Bishop, Sections: 11.1.4, 11.2, 11.3 and 11.5. 
+ - Murphy, Sections: 24.2.1-3, 24.3.1-4, 24.4.1 and 24.5.4.
+
+[Computer Class Notebook](/ComputerClasses/ComputerClass08.ipynb)
+
+*Topics covered in Computer Class*: 
+ - Fitting Gaussian Mixture models using the EM algorithm
+ - Obtaining information on soft allocation of individuals
+ - Model Choice within the family of Gaussian Mixtures
+ - Bayesian approach with overfitted mixtures
+
+[Problem Set 8](/ProblemSets/ProblemSet08.pdf)
 
 ---
