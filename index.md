@@ -354,7 +354,7 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 *Stan files for Computer Class*
 
-[Linear Regression](/ComputerClasses/LinearRegression.stan) [/ComputerClasses/Linear Regression 2](LinearRegression2.stan) [Horseshoe](/ComputerClasses/horseshoe.stan)
+[Linear Regression](/ComputerClasses/LinearRegression.stan) [Linear Regression 2](/ComputerClasses/LinearRegression2.stan) [Horseshoe](/ComputerClasses/Horseshoe.stan)
 
 *Topics covered in Computer Class*: 
  - Sampling from the posterior using the Gibbs Sampler in Python
