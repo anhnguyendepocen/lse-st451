@@ -354,6 +354,9 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Diabetes Data](/ComputerClasses/diabetes.data.txt)
 
+[Diabetes Data version with 64 inputs](/ComputerClasses/data64.txt)
+
+
 [X train](/ComputerClasses/X_train.csv) [y train](/ComputerClasses/y_train.csv) [X test](/ComputerClasses/X_test.csv) [y test](/ComputerClasses/y_test.csv)
 
 *Stan files for Computer Class*
