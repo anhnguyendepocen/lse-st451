@@ -332,6 +332,8 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Lecture Slides](/LectureSlides/SlidesWeek08.pdf)
 
+[Markov Chain Example](/LectureSlides/LectureExample.ipynb)
+
 *Topics covered in Lecture*: 
  - Hirerarchical / Multi-level / Panel Data models 
  - Bayesian sparse variable selection
