@@ -350,7 +350,11 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Computer Class Notebook](/ComputerClasses/ComputerClass08.ipynb)
 
+[Computer Class Notebook with code activity](/ComputerClasses/ComputerClass08_CodeActivities.ipynb)
+
 [Computer Class R Markdown](/ComputerClasses/ComputerClass08.Rmd)
+
+[Computer Class R Markdown with code activity](/ComputerClasses/ComputerClass08_CodeActivities.Rmd)
 
 *Data for Computer Class*
 
@@ -377,6 +381,8 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 [Radon Data for Exercise 3](/ProblemSets/radon.csv)
 
 [Problem Set 8 with Solutions](/ProblemSets/ProblemSet08_WithSolutions.pdf)
+
+---
 
 #### Week 9. Sequential Data
 
