@@ -326,6 +326,8 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Problem Set 7](/ProblemSets/ProblemSet07.pdf)
 
+[Problem Set 7 With Solutions](/ProblemSets/ProblemSet07_WithSolutions.pdf)
+
 ---
 
 #### Week 8. Markov Chain Monte Carlo
@@ -373,5 +375,9 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 [Problem Set 8](/ProblemSets/ProblemSet08.pdf)
 
 [Radon Data for Exercise 3](/ProblemSets/radon.csv)
+
+[Problem Set 8 with Solutions](/ProblemSets/ProblemSet08_WithSolutions.pdf)
+
+
 
 ---
