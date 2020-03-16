@@ -382,6 +382,16 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Problem Set 8 with Solutions](/ProblemSets/ProblemSet08_WithSolutions.pdf)
 
+[Exercise 2bc Notebook](/ProblemSets/Exercise2cd.ipynb)
+
+[Exercise 2d R Markdown](/ProblemSets/Exercise2d.Rmd)
+
+[Exercise 2d stan file](/ProblemSets/Ex2d.stan)
+
+[Exercise 3 R Markdown](/ProblemSets/Exercise3.Rmd)
+
+[Exercise 3 stan file](/ProblemSets/RadonMultilevel.stan)
+
 ---
 
 #### Week 9. Sequential Data
