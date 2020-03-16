@@ -378,6 +378,34 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Problem Set 8 with Solutions](/ProblemSets/ProblemSet08_WithSolutions.pdf)
 
+#### Week 9. Sequential Data
 
+[Lecture Slides](/LectureSlides/SlidesWeek09.pdf)
+
+*Topics covered in Lecture*: 
+ - Linear Gaussian State Space Models 
+ - Filtering, Prediction and Smoothing 
+ - Kalman Filter and Smoother
+ - Hidden Markov Models
+ - Forward and Forward-Backward Algorithms 
+ - Viterbi Encoding
+ 
+*Further Reading (Optional)*:
+ - Bishop, Sections: 13.2 and 13.3. 
+ - Murphy, Sections: 17.3 17.4.1-4 17.5.1-3 and 18.1-18.5.
+
+[Computer Class Notebook](/ComputerClasses/ComputerClass09.ipynb)
+
+[Computer Class Notebook with code for the activity](/ComputerClasses/ComputerClass09_CodeActivities.ipynb)
+
+*Topics covered in Computer Class*: 
+ - Kalman Filter 
+ - Forward Algorithm
+ - Forward-Backward Algorithm 
+ - Viterbi Encoding
+
+[Problem Set 9](/ProblemSets/ProblemSet09.pdf)
+
+[Problem Set 9 with Solutions](/ProblemSets/ProblemSet09_WithSolutions.pdf)
 
 ---
