@@ -415,3 +415,26 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 [Problem Set 9 with Solutions](/ProblemSets/ProblemSet09_WithSolutions.pdf)
 
 ---
+
+#### Week 10. Gaussian Processes
+
+[Lecture Slides](/LectureSlides/SlidesWeek10.pdf)
+
+*Topics covered in Lecture*: 
+ - Bayesian Non-Parametric Regression 
+ - Covariance Kernels 
+ - Multivariate Normal Conditioning.
+ - Gaussian Process Posterior  
+ - Gaussian Process Predictive Distribution
+ 
+*Further Reading (Optional)*:
+ - Bishop, Sections: 6.4.1-6.4.3, 6.4.5 and 6.4.6. 
+ - Murphy, Sections: 15.2 and 15.3.
+
+[Computer Class Notebook](/ComputerClasses/ComputerClass10.ipynb)
+
+*Topics covered in Computer Class*: 
+ - Gaussian Process Regression
+ - Gaussian Process Classification
+
+---
