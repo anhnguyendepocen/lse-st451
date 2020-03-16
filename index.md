@@ -424,6 +424,8 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Problem Set 9 with Solutions](/ProblemSets/ProblemSet09_WithSolutions.pdf)
 
+[Problem Set 9 Notebook](/ProblemSets/ProblemSet09.ipynb)
+
 ---
 
 #### Week 10. Gaussian Processes
