@@ -1,0 +1,46 @@
+---
+title: "ExampleST308Week08"
+author: "Kostas Kalogeropoulos"
+date: "10/03/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+## Load data
+
+```{r}
+RadonData = read.csv('radon.csv',header=TRUE)
+summary(RadonData)
+```
+
+convert the string (factor variable) county to numeric
+
+```{r}
+RadonData$county = as.numeric(RadonData$county)
+length(unique(RadonData$county))
+RadonData$county
+```
+
+Prepare the data for Stan by putting them in a list
+
+```{r}
+library(rstan)
+radon_dat=list(y=RadonData$logRadon, N=length(RadonData$logRadon), K=length(unique(RadonData$county)), x=RadonData$floor, county=RadonData$county)
+```
+
+Run Hamiltonian MCMC in Stan
+
+```{r}
+fit <- stan(file = 'RadonMultilevel.stan', data = radon_dat, init=0,chains=1,iter=4000,seed=1)
+#control=list(adapt_delta = 0.99)
+```
+
+Analyse and interpret MCMC output
+
+```{r}
+print(fit,pars=c("sigma","mu_a","mu_b","sigma_a","sigma_b"))
+plot(fit,pars=c("alpha"))
+plot(fit,pars=c("beta"))
+traceplot(fit,pars=c("sigma","mu_a","mu_b","sigma_a","sigma_b","beta[25]","beta[63]","alpha[49]","alpha[85]"))
+```

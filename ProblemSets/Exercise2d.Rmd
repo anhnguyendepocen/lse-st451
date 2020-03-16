@@ -1,0 +1,41 @@
+---
+title: "Exercise2d"
+author: "Kostas Kalogeropoulos"
+date: "16/03/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(rstan)
+```
+
+
+```{r cars}
+n = 200 #sample size
+mu_true = 2
+v_true = 1
+sigma2_true = 1
+N = 20
+y = rnorm(n,mu_true,sqrt(v_true))
+ybar = mean(y)
+S2 = sum((y-ybar)**2)
+c(ybar,S2/(n-1))
+dat=list(y=y,n=n,N=N)
+```
+
+## Including Plots
+
+
+```{r}
+fit <- stan(file = 'Ex2d.stan', data = dat, init=0,chains=1,seed=1)
+```
+
+```{r}
+print(fit)
+plot(fit)
+```
