@@ -445,6 +445,8 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [Computer Class Notebook](/ComputerClasses/ComputerClass10.ipynb)
 
+[Olympics 100m data](/ComputerClasses/olympics100m.csv)
+
 *Topics covered in Computer Class*: 
  - Gaussian Process Regression
  - Gaussian Process Classification
