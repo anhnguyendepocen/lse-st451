@@ -262,6 +262,8 @@ The final grade will be determined by the above with equal weights (**50-50\%**)
 
 [R Markdown with the code for Exercise 3](/ProblemSets/ProblemSet05_CodeExercise3.Rmd)
 
+[Stan file for Exercise 3](/ProblemSets/VIX.stan)
+
 ---
 
 #### Week 6. Graphical Models
